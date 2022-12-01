@@ -1,5 +1,5 @@
 # Decision Tree Supervised Classification on 2D Point
-The code is using the decision tree method to classify 2D tagged data into 2 categories. The helper functions however, should be available in both input and output dimension, just that those would be difficult to illustrate on a 2D plot. The given classification however, should hold descrete values, like blue/red in the following example.
+The code is using the decision tree method to classify 2D tagged data into 2 categories. The helper functions in the code should work for both higher feature and category dimensions, just that those would be difficult to illustrate on a 2D plot. The categories however, should hold descrete values, like blue/red in the following example.
 
 The example data is given as the following, where each data point is tagged as a blue cross or a red circle:
 
