@@ -21,7 +21,7 @@ As for the gradient boosted decision tree code:
 
 The code outputs the image above, where the 2D region has now gradient blue and red regions. The gradient toward blue (red) means that future points that fall in this region are preferabled classified as cross (circle).
 
-The more advanced variations, such as adaptive gradient boost and random forest, have not yet been implemented.
+The more advanced variations, such as random forest (bootstraps feature dimensions, so need more than 2 features as in the example to be effective; good at handling missing data) and adaboost (adaptive gradient boost, which is an upgrade to the random forest by introducing weights on the trees in a reasonable way), have not yet been implemented.
 
 References:
-- StatQuest with Josh Starmer's Youtube channel (<a href="https://www.youtube.com/watch?v=_L39rN6gz7Y">Youtube1</a>, <a href="https://www.youtube.com/watch?v=g9c66TUylZ4">2</a>, <a href="https://www.youtube.com/watch?v=3CC4N4z3GJc">3</a>, <a href="https://www.youtube.com/watch?v=LsK-xG1cLYA">adaBoost</a>, <a href="https://www.youtube.com/watch?v=J4Wdy0Wc_xQ">randForest</a>)
+- StatQuest with Josh Starmer's Youtube channel (<a href="https://www.youtube.com/watch?v=_L39rN6gz7Y">Youtube1</a>, <a href="https://www.youtube.com/watch?v=g9c66TUylZ4">2</a>, <a href="https://www.youtube.com/watch?v=3CC4N4z3GJc">3</a>, <a href="https://www.youtube.com/watch?v=J4Wdy0Wc_xQ">randForest</a>, <a href="https://www.youtube.com/watch?v=LsK-xG1cLYA">adaBoost</a>)
